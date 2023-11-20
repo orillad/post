@@ -23,7 +23,6 @@
   
   const body = ref("");
   const emoji = ref<Emoji | null>(null);
-  const charCount = computed(() => body.value.length);
   
   function countChar() {
     return body.value.length;
